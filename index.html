@@ -1,77 +1,75 @@
-<!DOCTYPE html>
-<html lang="fr">
+
+
+    
+
+
+    <!DOCTYPE html>
+
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>SMOM</title>
+
+
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  <link type="text/css" rel="stylesheet" href="style.css"/>
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="utf-8">
+  <meta name="keywords" content="">
+  <meta name="robots" content="index, follow">
+  <meta name="description" content="">
+  <meta name="author" lang="fr" content="">
+  <meta name="copyright" content="">
+  <meta name="identifier-url" content="http://www.balisesmeta.com/">
+
+  <title> débouchés développement web </title>
 </head>
-<style>
-body{
-    margin: 0%;
-}
-header{
-    display: flex;
-    -webkit-box-shadow: 0px 25px 20px -23px rgba(237,217,156,1);
-    -moz-box-shadow: 0px 25px 20px -23px rgba(237,217,156,1);
-    box-shadow: 0px 25px 20px -23px rgba(237,217,156,1);
-    width: 100%;
-    position: fixed;
-    margin-bottom:23px;
-    background-color: #ffffff;
-    margin-top: 0;
-}
 
-header img{
-    width: 10%;
-}
-header ul{
-    list-style:none;
-    display: flex;
-    width: 83%;
-    justify-content: flex-end
-}
-header ul > li{
-    margin-left: 5%;
-}
-header a {
-    text-decoration: none;
-    color: #EBA232;
-}
-h1{
-    text-align: center;
-    color: #EBA232;
-    text-shadow: 1px 1px 2px red, 0 0 1em rgb(72, 72, 78), 0 0 0.2em #555;
-    padding-top:8%;
-    margin-block-start: 0;
-    margin-block-end:0;
-}
-h4{
-    color: #CA4318;
-    font-size:150%;
-    margin-left: 2%;
-}
-.presentation{
-    margin: 2% 11% 2% 2%;
-    font-size: 120%;
-}
-.imgpres{
-    width: 100%;
-    height: 350px;
 
-}
-</style>
-<body>
+  <body >
+
     <header>
-        <img src="images/logo.png" alt="logo">
-        <ul>
-            <li><a href="index.html">Accueil</a></li>
-            <li><a href="produits.html">Produits </a></li> 
-            <li><a href="recettes.html">Recettes  </a></li> 
-            <li><a href="localisation.html">Localisation</a> </li>
+      <div id="header_partie_jaune">
+        <nav class="black">
+          <ul id="nav-mobile" class="left hide-on-med-and-down">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="etudes.html#etude">Nos produits</a></li>
         </ul>
+        <div id="logo_container" class="brand-logo center"> 
+          <a href="index.html"><img src="images/logo1.png" class="hide-on-med-and-down" id="logo"/></a>
+          <a href="#" data-target="mobile-links" class="sidenav-trigger"><img src="images/image2.png"  id="bouton_hamburger"/></a>
+        </div>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li class="right"><a href="temoignage.html#temoignage">Contact</a></li>
+          <li class="right"><a href="FAQ.html#FAQ">Recettes</a></li>
+          
+          </ul>
+        </nav>
+
+        <div id="menu_hamburger" class="hide-on-large-only hidden">
+          <ul>
+            <li><a href="index.html">#Accueil</a></li>
+            <li><a href="etudes.html#etude">Nos produits</a></li>
+            <li><a href="metiers.html#métier">recettes </a></li>
+            <li><a href="temoignage.html#temoignage">Contact</a></li>
+          </ul>
+        </div>
+
+        <div id="header_titre">
+          <div id="titre_container">
+            <h1>Bienvenue dans votre magasin SM Oriental Market</h1>
+          </div>
+        </div>
+
+      </div>
     </header>
-    <h1> SM Oriental Market  </h1>
+ 
+
+    <!-- <h1> SM Oriental Market  </h1>
     <h4>Présentation :</h4>
     <img class="imgpres" src="images/pres.jpg" alt="presentation">
     <p class="presentation">
@@ -83,5 +81,8 @@ h4{
 
             <p>sprcialisé dans les épices du monde , particuliarement épices orientales et épices turques .</p>
             <p>sprcialisé vdans les huiles essentielles avec extraction de l'huile de nigel 100 % naturelle sur place .</p>
-</body>
+</body> -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="script.js"></script>
 </html>
