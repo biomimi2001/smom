@@ -218,6 +218,8 @@ nav ul {
   h1 {
     color: rgba(0,0,0,1);
     margin: auto;
+    font-family: "Montreal-HeavyIta",sans-serif;
+  text-transform: uppercase;
   }
 
   #header_titre {
@@ -237,4 +239,9 @@ nav ul {
 
 h2{
   text-align: center;
+}
+.presentation{
+  width: 60%;
+ margin: auto;
+ margin-top: 10px;
 }
