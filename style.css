@@ -194,10 +194,15 @@ nav ul {
   text-align: center;
   border-bottom: 2px solid #ffc107;
   width: 200px;
+
 }
+
 
 #menu_hamburger a {
   color: white;
+  font-family: "Montreal-HeavyIta",sans-serif;
+  text-transform: uppercase;
+  cursor: pointer;
 }
 
 #menu_hamburger a:hover {
