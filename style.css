@@ -200,7 +200,6 @@ nav ul {
   text-align: center;
   border-bottom: 2px solid #ffc107;
   width: 200px;
-
 }
 
 
@@ -229,7 +228,7 @@ nav ul {
   font-size: 3em !important;
     text-align: center !important;
     line-height: 120% !important;
-  padding-top: 8em;
+  padding-top: 4em;
   
   }
 
@@ -256,4 +255,7 @@ h2{
   width: 60%;
  margin: auto;
  margin-top: 10px;
+}
+#menu_hamburger{
+  padding-top: 1em;
 }
