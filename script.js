@@ -15,3 +15,26 @@ M.AutoInit();
  window.onload = function(){
        document.getElementById("bouton_hamburger").addEventListener( 'click', changeClass);
    }
+
+
+
+   document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.carousel');
+    var instances = M.Carousel.init(elems, options);
+  });
+
+  // Or with jQuery
+
+  $(document).ready(function(){
+    $('.carousel').carousel();
+  });
+
+
+  /****second carrousel */
+  
+  var instance = M.Carousel.init({
+    fullWidth: true,
+    indicators: true
+  });
+
+  

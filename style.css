@@ -239,7 +239,12 @@ nav ul {
     line-height: 120%;
   }
 }
-
+.magasin3d{
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 5%;
+  border-image: linear-gradient(red, blue) 27;
+}
 
 
 .material-icons {
@@ -258,4 +263,15 @@ h2{
 }
 #menu_hamburger{
   padding-top: 1em;
+}
+
+
+.headerProduit {
+  background-image: url(images/fondHead.jpg);
+}
+.headerRecette {
+  background-image: url(images/fondheadrecette.jpg);
+}
+.headerContact {
+  background-image: url(images/7.jpg);
 }
