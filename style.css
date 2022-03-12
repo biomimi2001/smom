@@ -94,7 +94,7 @@ nav ul a {
 header {
   height: 100vh;
   width: 100%;
-  background-image: url(images/fondHead3.jpg);
+  background-image: url(images/acc2.JPG);
   background-position: top right;
   background-repeat: no-repeat;
   background-size: cover;
@@ -267,7 +267,7 @@ h2{
 
 
 .headerProduit {
-  background-image: url(images/fondHead.jpg);
+  background-image: url(images/prod1.JPG);
 }
 .headerRecette {
   background-image: url(images/fondheadrecette.jpg);
