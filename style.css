@@ -275,3 +275,23 @@ h2{
 .headerContact {
   background-image: url(images/3.jpg);
 }
+
+.hide-on-large-only{
+  margin: 10px 50px;
+}
+
+main img{
+  border-radius: 50% 20% / 10% 40%;
+}
+.row .col.l5{
+margin-left: 0;
+margin-top: 1%;}
+main{
+  font-size: larger;
+  padding: 2rem;
+  background-color: #ecd694;
+}
+.pres{
+  margin: 2% 15% ;
+  text-align: center;
+}
