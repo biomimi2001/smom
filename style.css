@@ -294,3 +294,32 @@ main{
   margin: 2% 15% ;
   text-align: center;
 }
+
+
+/**css footer *****************************************************/
+footer {
+  margin-top: 10%;
+  background-color:#000;
+  color:#fff;
+  width:100%;
+  min-height: 230px;
+  padding-top: 50px;
+}
+
+.grid  {
+background-color:black;
+display:grid;
+grid-template-columns:2fr 2fr 2fr 2fr;
+grid-column-gap: 5px;
+}
+
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  color: #ffc107;
+}
+.logofooter{
+  margin-left: 3rem;
+}
