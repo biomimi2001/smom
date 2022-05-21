@@ -250,7 +250,7 @@ nav ul {
   footer{
     font-size: small;
   }
-}
+}cd 
 .magasin3d{
   width: 80%;
   margin-left: 10%;
@@ -340,3 +340,19 @@ footer a:hover {
 .white{
   background-color: #ffc107 !important;
 }
+h3{
+  margin-top: 20%;
+  color :#ffc107
+}
+.darken-1{
+  color: #000;
+  margin: 10%;
+}
+.bienfaits{
+  
+  border: #ffc107 20px solid;
+  margin: auto;
+  margin-top: 5%;
+  text-align: center;
+}
+ 
