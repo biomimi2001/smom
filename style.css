@@ -214,43 +214,7 @@ nav ul {
   color: #ffc107;
 }
 
-@media all and (max-width: 1000px) {
-  #header_partie_jaune {
-    background-image: url(images/header_titre_small.png);
-    background-size: cover;
-  }
 
-  h1 {
-    color: rgba(0,0,0,1);
-    margin: auto;
-    font-family: "Montreal-HeavyIta",sans-serif;
-  text-transform: uppercase;
-  font-size: 3em !important;
-    text-align: center !important;
-    line-height: 120% !important;
-  padding-top: 4em;
-  
-  }
-
-  #header_titre {
-    width: 100%;
-    padding: 0;
-    justify-content: center;
-    line-height: 120%;
-  }
-  main{
-    font-size: 1.2em !important;
-  }
-  .logofooter img{
-    height:50px !important;
-  }
-  .grid div{
-    margin-left: 10%;
-  } 
-  footer{
-    font-size: small;
-  }
-}cd 
 .magasin3d{
   width: 80%;
   margin-left: 10%;
@@ -356,3 +320,64 @@ h3{
   text-align: center;
 }
  
+.produits .row{
+ border-bottom: #ffc107 solid 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 1000px) {
+  #header_partie_jaune {
+    background-image: url(images/header_titre_small.png);
+    background-size: cover;
+  }
+
+  h1 {
+    color: rgba(0,0,0,1);
+    margin: auto;
+    font-family: "Montreal-HeavyIta",sans-serif;
+  text-transform: uppercase;
+  font-size: 3em !important;
+    text-align: center !important;
+    line-height: 120% !important;
+  padding-top: 4em;
+  
+  }
+
+  #header_titre {
+    width: 100%;
+    padding: 0;
+    justify-content: center;
+    line-height: 120%;
+  }
+  main{
+    font-size: 1.2em !important;
+  }
+  .logofooter img{
+    height:50px !important;
+  }
+  .grid div{
+    margin-left: 10%;
+  } 
+  footer{
+    font-size: small;
+  }
+  .bienfaits{
+    width: 100%;
+  }
+  iframe{
+    width: 100%;
+  }
+}
