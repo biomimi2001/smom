@@ -320,11 +320,14 @@ h3{
   text-align: center;
 }
  
-.produits .row{
- border-bottom: #ffc107 solid 5px;
+
+
+@media all and (min-width: 1001px) {
+  .produitsM {
+
+    display: none;
+  }
 }
-
-
 
 
 
@@ -380,4 +383,11 @@ h3{
   iframe{
     width: 100%;
   }
+  .produitsD {
+    display: none;
+   }
+   .produitsM {
+    visibility: visible;
+   }
+   
 }
