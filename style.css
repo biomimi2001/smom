@@ -246,10 +246,10 @@ h2{
   background-image: url(images/prod2.JPG);
 }
 .headerRecette {
-  background-image: url(images/fondheadrecette.jpg);
+  background-image: url(images/IMG_8270.JPG);
 }
 .headerContact {
-  background-image: url(images/3.jpg);
+  background-image: url(images/IMG_8589.JPG);
 }
 
 
@@ -391,3 +391,5 @@ h3{
    }
    
 }
+.test{
+  object-fit: scale-down;}
