@@ -9,7 +9,9 @@
   <!--Import materialize.css-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <link type="text/css" rel="stylesheet" href="style.css" />
 
@@ -33,7 +35,19 @@
       <nav class="black">
         <ul id="nav-mobile" class="left hide-on-med-and-down">
           <li><a href="index.html"><i class="fa-solid fa-house-chimney"></i> Accueil</a></li>
-          <li><a href="produits.html"><i class="fa-brands fa-palfed"></i> produits</a></li>
+          <li><a href="produits.html"><i class="fa-brands fa-palfed"></i> produits</a>
+            <div class="menu">
+              <ul>
+                <li><a href="epices.html">Epices et condiments</a></li>
+                <li><a href="herbes.html">Herbes et aromates</a></li>
+              </ul>
+              <ul>
+                <li><a href="fruits.html">Fruits secs et confiseries</a></li>
+                <li><a href="divers.html">Articles divers</a></li>
+              </ul>
+            </div>
+          </li>
+
         </ul>
         <div id="logo_container" class="brand-logo center">
           <a href="index.html"><img src="images/logo1.png" class="hide-on-med-and-down" id="logo" /></a>
@@ -42,7 +56,7 @@
         </div>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
           <li class="right"><a href="localisation.html"><i class="fa-solid fa-earth-europe"></i> Contact</a></li>
-          <li class="right"><a href="recettes.html"><i class="fa-solid fa-heart-circle-check"></i>  Nota Bene</a></li>
+          <li class="right"><a href="recettes.html"><i class="fa-solid fa-heart-circle-check"></i> Nota Bene</a></li>
 
         </ul>
       </nav>
@@ -56,6 +70,8 @@
         </ul>
       </div>
 
+
+
       <div id="header_titre">
         <div id="titre_container">
           <h1>Nos produits</h1>
@@ -63,110 +79,176 @@
       </div>
 
     </div>
-    <p> Votre épicerie est spécialisée dans les produits orientaux et épices du monde et elle vous propose une large
-      gamme. </p> <br>
-      <div class="produitsD">
-        <div class="row">
-          <div class="col s12 m6 l6">
-            <div class="parallax-container">
-              <div class="parallax"><img src="images/IMG_6587.JPEG"></div>
-            </div>
-          </div>
-          <div class=" center-align texte-produits  col s12 m6 l6  ">
-            <h3 class=" center-align">Epices et condiments </h3> <br>
-            <p class=" center-align"> Nous sélectionnons pour vous les meileurs produits venant du monde entier </p>
-            <a class="  #ffc107 yellow darken-1 center-align waves-effect waves-light btn"><i
-                class="material-icons right">add</i>en savoir</a>
-  
-          </div>
-        </div>
-        <div class="row">
+  </header>
+  <p> Votre épicerie est spécialisée dans les produits orientaux et épices du monde et elle vous propose une large
+    gamme. </p> <br>
+  <main class="produit">
 
-          <div class=" center-align texte-produits col s12 m6 l6 ">
-            <h3 class=" center-align">Herbes et aromates </h3>
-            <p class="  center-align"> Nous sélectionnons pour vous les meileurs produits venant du monde entier
-            </p>
-            <a class="  #ffc107 yellow darken-1 center-align waves-effect waves-light btn"><i
-                class="material-icons right">add</i>en savoir</a>
-          </div>
-          <div class="col s12 m6 l6">
-            <div class="parallax-container">
-              <div class="parallax"><img src="images/IMG_6383.JPG"></div>
-            </div>
-          </div>
-        </div>
-  
-        <div class="row">
-          <div class="col s12 m6 l6">
-            <div class="parallax-container">
-              <div class="parallax"><img src="images/IMG_8555.JPG"></div>
-            </div>
-          </div>
-          <div class=" center-align texte-produits  col s12 m6 l6  ">
-            <h3 class=" center-align">Fruits secs et confiseries </h3> <br>
-            <p class=" center-align"> Nous sélectionnons pour vous les meileurs produits venant du monde entier </p>
-            <a class="  #ffc107 yellow darken-1 center-align waves-effect waves-light btn"><i
-                class="material-icons right">add</i>en savoir</a>
-  
-          </div>
-        </div>
-        <div class="row">
 
-          <div class=" center-align texte-produits col s12 m6 l6 ">
-            <h3 class=" center-align">Articles divers </h3>
-            <p class="  center-align"> Nous sélectionnons pour vous les meileurs produits venant du monde entier
-            </p>
-            <a class="  #ffc107 yellow darken-1 center-align waves-effect waves-light btn"><i
-                class="material-icons right">add</i>en savoir</a>
-          </div>
-          <div class="col s12 m6 l6">
-            <div class="parallax-container">
-              <div class="parallax test"><img src="images/IMG_7198.JPG"></div>
-            </div>
+    <!-- nos produits version desktop -->
+    <div class="produitsDesktop">
+      <div class="row">
+        <div class="col s12 m6 l6">
+          <div class="parallax-container">
+            <div class="parallax"><img src="images/IMG_6587.JPEG"></div>
           </div>
         </div>
-  
-        
-  
-        
-  
-        
-        <footer id="footer">
-          <div class="grid">
-            <div class="logofooter">
-              <img src="images/logo1.png" alt="logo" />
-              <br><br>
-              <a href="https://goo.gl/maps/2Ejtam2yedVor1Dc8" title="20 bd Madeleine Remusat">mentions légales</a>
-    
-            </div>
-    
-            <div>
-              <a href="https://goo.gl/maps/2Ejtam2yedVor1Dc8" target="_blank"> <i class="material-icons">location_on</i>
-              </a> <br>
-              <a href="https://goo.gl/maps/2Ejtam2yedVor1Dc8">18 rue longue des capucins 13001</a>
-              <br>
-              </p>
-              <a href="mailto:smorientalmarket13@gmail.com" target="_blank"
-                title="si5plon4ever@gmail.com">smorientalmarket13@gmail.com</a>
-              <p>+33 753676537 </p>
-            </div>
-            <div class="logo-reseaux-sociaux ">
-              <a href="mailto:smorientalmarket13@gmail.com" target="_blank" title="simplon4ever@gmail.com"><img
-                  src="images/em.png" style="height:40px;width:40px;" alt="logo-mail" /></a>
-              <a href="https://www.facebook.com/%C3%89picerie-SM-Oriental-Market-306121670134162/" target="_blank"
-                title="Facebook"><img src="images/fc.png" style="height:40px;width:40px;" alt="logo-facebook"></i></a>
-              <a href="https://twitter.com/SMOriental" target="_blank" title="Twitter"><img src="images/tw.png"
-                  style="height:40px;width:40px;" alt="logo-twitter" /></a>
-              <a href="https://www.instagram.com/smorientalmarket13/" target="_blank" title="Twitter"><img
-                  src="images/inst.png" style="height:40px;width:40px;" alt="logo-twitter" /></a>
-            </div>
+        <div class=" center-align texte-produits  col s12 m6 l6  white ">
+          <h3 class=" center-align">Epices et condiments </h3> <br>
+          <p class=" center-align"> Nous sélectionnons pour vous les meileurs produits venant du monde entier </p>
+          <a href="epices.html" class="  #ffc107 yellow darken-1 center-align waves-effect waves-light btn"><i
+              class="material-icons right">add</i>en savoir</a>
+
+        </div>
+      </div>
+      <div class="row">
+
+        <div class=" center-align texte-produits col s12 m6 l6 white">
+          <h3 class=" center-align">Herbes et aromates </h3>
+          <p class="  center-align"> Nous sélectionnons pour vous les meileurs produits venant du monde entier
+          </p>
+          <a href="herbes.html" class="  #ffc107 yellow darken-1 center-align waves-effect waves-light btn"><i
+              class="material-icons right">add</i>en savoir</a>
+        </div>
+        <div class="col s12 m6 l6">
+          <div class="parallax-container">
+            <div class="parallax"><img src="images/IMG_6383.JPG"></div>
           </div>
-        </footer>
-    </body>
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src="script.js"></script>
-    
-    </html>
-          
-  
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col s12 m6 l6">
+          <div class="parallax-container">
+            <div class="parallax"><img src="images/IMG_8555.JPG"></div>
+          </div>
+        </div>
+        <div class=" center-align texte-produits  col s12 m6 l6 white ">
+          <h3 class=" center-align">Fruits secs et confiseries </h3> <br>
+          <p class=" center-align"> Nous sélectionnons pour vous les meileurs produits venant du monde entier </p>
+          <a href="fruits.html" class="  #ffc107 yellow darken-1 center-align waves-effect waves-light btn"><i
+              class="material-icons right">add</i>en savoir</a>
+
+        </div>
+      </div>
+      <div class="row">
+
+        <div class=" center-align texte-produits col s12 m6 l6 white">
+          <h3 class=" center-align">Articles divers </h3>
+          <p class="  center-align"> Nous sélectionnons pour vous les meileurs produits venant du monde entier
+          </p>
+          <a href="divers.html" class="  #ffc107 yellow darken-1 center-align waves-effect waves-light btn"><i
+              class="material-icons right">add</i>en savoir</a>
+        </div>
+        <div class="col s12 m6 l6">
+          <div class="parallax-container">
+            <div class="parallax test"><img src="images/IMG_7198.JPG"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- nos produits version mobile -->
+    <div class="produitsMobile">
+      <div class="row">
+        <div class="col s12 m6 l6">
+          <div class="parallax-container">
+            <div class="parallax"><img src="images/IMG_6587.JPEG"></div>
+          </div>
+        </div>
+        <div class=" center-align texte-produits  col s12 m6 l6 white ">
+          <h3 class=" center-align">Epices et condiments </h3> <br>
+          <p class=" center-align"> Nous sélectionnons pour vous les meileurs produits venant du monde entier </p>
+          <a href="epices.html" class="  #ffc107 yellow darken-1 center-align waves-effect waves-light btn"><i
+              class="material-icons right">add</i>en savoir</a>
+
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 m6 l6">
+          <div class="parallax-container">
+            <div class="parallax"><img src="images/IMG_6383.JPG"></div>
+          </div>
+        </div>
+        <div class=" center-align texte-produits col s12 m6 l6 white">
+          <h3 class=" center-align">Herbes et aromates </h3>
+          <p class="  center-align"> Nous sélectionnons pour vous les meileurs produits venant du monde entier
+          </p>
+          <a href="herbes.html" class="  #ffc107 yellow darken-1 center-align waves-effect waves-light btn"><i
+              class="material-icons right">add</i>en savoir</a>
+        </div>
+
+      </div>
+
+      <div class="row">
+        <div class="col s12 m6 l6">
+          <div class="parallax-container">
+            <div class="parallax"><img src="images/IMG_8555.JPG"></div>
+          </div>
+        </div>
+        <div class=" center-align texte-produits  col s12 m6 l6 white ">
+          <h3 class=" center-align">Fruits secs et confiseries </h3> <br>
+          <p class=" center-align"> Nous sélectionnons pour vous les meileurs produits venant du monde entier </p>
+          <a href="fruits.html" class="  #ffc107 yellow darken-1 center-align waves-effect waves-light btn"><i
+              class="material-icons right">add</i>en savoir</a>
+
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 m6 l6">
+          <div class="parallax-container">
+            <div class="parallax test"><img src="images/IMG_7198.JPG"></div>
+          </div>
+        </div>
+        <div class=" center-align texte-produits col s12 m6 l6 white">
+          <h3 class=" center-align">Articles divers </h3>
+          <p class="  center-align"> Nous sélectionnons pour vous les meileurs produits venant du monde entier
+          </p>
+          <a href="divers.html" class="  #ffc107 yellow darken-1 center-align waves-effect waves-light btn"><i
+              class="material-icons right">add</i>en savoir</a>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+
+
+
+
+  <footer id="footer">
+    <div class="grid">
+      <div class="logofooter">
+        <img src="images/logo1.png" alt="logo" />
+        <br><br>
+        <a href="https://goo.gl/maps/2Ejtam2yedVor1Dc8" title="20 bd Madeleine Remusat">mentions légales</a>
+
+      </div>
+
+      <div>
+        <a href="https://goo.gl/maps/2Ejtam2yedVor1Dc8" target="_blank"> <i class="material-icons">location_on</i>
+        </a> <br>
+        <a href="https://goo.gl/maps/2Ejtam2yedVor1Dc8">18 rue longue des capucins 13001</a>
+        <br>
+        </p>
+        <a href="mailto:smorientalmarket13@gmail.com" target="_blank"
+          title="si5plon4ever@gmail.com">smorientalmarket13@gmail.com</a>
+        <p>+33 753676537 </p>
+      </div>
+      <div class="logo-reseaux-sociaux ">
+        <a href="mailto:smorientalmarket13@gmail.com" target="_blank" title="simplon4ever@gmail.com"><img
+            src="images/em.png" style="height:40px;width:40px;" alt="logo-mail" /></a>
+        <a href="https://www.facebook.com/%C3%89picerie-SM-Oriental-Market-306121670134162/" target="_blank"
+          title="Facebook"><img src="images/fc.png" style="height:40px;width:40px;" alt="logo-facebook"></i></a>
+        <a href="https://twitter.com/SMOriental" target="_blank" title="Twitter"><img src="images/tw.png"
+            style="height:40px;width:40px;" alt="logo-twitter" /></a>
+        <a href="https://www.instagram.com/smorientalmarket13/" target="_blank" title="Twitter"><img
+            src="images/inst.png" style="height:40px;width:40px;" alt="logo-twitter" /></a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="script.js"></script>
+
+</html>
