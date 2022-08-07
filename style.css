@@ -244,13 +244,25 @@ h2{
 background-image: url(images/acc2.JPG);
 }
 .headerProduit {
-  background-image: url(images/prod2.JPG);
+  background-image: url(images/IMG_8557.JPG);
+}
+.headerdivers {
+  background-image: url(images/IMG_6596\ -\ Copie.JPEG);
+}
+.headerherbes {
+  background-image: url(images/IMG_6383\ \(1\).JPG);
+}
+.headerfruits {
+  background-image: url(images/IMG_4658\ -\ Copie.jpg);
+}
+.headerepices {
+  background-image: url(images/125927588_698418647778471_766251782116084279_n\ -\ Copie.jpg);
 }
 .headerRecette {
-  background-image: url(images/IMG_8270.JPG);
+  background-image: url(images/IMG_8589.JPG);
 }
 .headerContact {
-  background-image: url(images/IMG_8589.JPG);
+  background-image: url(images/IMG_5665.jpeg);
 }
 
 
@@ -420,10 +432,23 @@ h3{
   }
   .list .col{
     margin-top: 3%;
-    /* border: #ffc107 solid 2px; */
     padding: 2px;
   }
 
   .list img{
     border-radius: 30%;
+    width: 300px;
+    height: 300px;
+  }
+
+  .produitsDesktop .white{
+    margin:0;
+  }
+  .produit .row .col{
+    padding: 0%;
+    margin-bottom: 0px;
+  }
+  .produit .row{
+    padding: 0%;
+    margin-bottom: 0px;
   }
